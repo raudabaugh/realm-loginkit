@@ -347,12 +347,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22EC435D1E3246FF009BBA75 /* Build configuration list for PBXNativeTarget "RealmLoginKit" */;
 			buildPhases = (
-				3F1637184A733D0A68A13C46 /* [CP] Check Pods Manifest.lock */,
 				22EC43531E3246FF009BBA75 /* Sources */,
 				22EC43541E3246FF009BBA75 /* Frameworks */,
 				22EC43551E3246FF009BBA75 /* Headers */,
 				22EC43561E3246FF009BBA75 /* Resources */,
-				02E3053489FDC48AEB6ABF6B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -453,21 +451,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02E3053489FDC48AEB6ABF6B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmLoginKit/Pods-RealmLoginKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		24345C64099B6AB0B2BE012A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -496,21 +479,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmLoginKitExample/Pods-RealmLoginKitExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3F1637184A733D0A68A13C46 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		EC576C2FAC48F6E26EBC08E2 /* [CP] Check Pods Manifest.lock */ = {
